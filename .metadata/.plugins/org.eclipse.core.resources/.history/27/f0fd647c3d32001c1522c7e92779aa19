@@ -1,0 +1,7 @@
+public class SpiderCreator {
+	
+	public static void main(String[] args) {
+		Spider spider = new Spider();
+		spider.search("http://wikipedia.org/", "computer");
+	}
+}

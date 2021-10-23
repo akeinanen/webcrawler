@@ -1,0 +1,7 @@
+import java.util.*;
+
+public class SpiderLeg {
+	public void crawl(String nextURL) // Give it a URL and it makes an HTTP request for a web page
+	public boolean searchForWord(String word) // Tries to find a word on the page
+	public List<String> getLinks() // Returns a list of all the URLs on the page
+}
